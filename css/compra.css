@@ -1,0 +1,56 @@
+main{
+    margin-bottom: 6.8rem;
+}
+.produto{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 90vw;
+    justify-content: space-around;
+}
+
+.produto__imagens{
+    max-width: 395px;
+    width: 50%;
+    background-color: gray;
+}
+
+.produto__descricao{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.produto__descricao h2 , .produto__descricao__texto{
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.produto__descricao p{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.produto__descricao__tamanhos{
+    display: flex;
+    justify-content: center;
+}
+
+.produto__descricao__tamanhos a{
+    background-color: #64C27B;
+    border-radius: 30px;
+    margin: 0 0.2rem;
+    font-size: 2rem;
+    padding: 1rem;
+    color: #fff;
+}
+
+.produto__descricao__btnCompra{
+    background-color: #F0920C;
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem 1.5rem;
+    border-radius: 30px;
+    margin: 0 auto;
+
+}
